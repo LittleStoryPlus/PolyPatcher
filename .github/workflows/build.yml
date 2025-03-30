@@ -29,3 +29,4 @@ jobs:
             ${{ runner.os }}-gradle-v2-
 
       - run: ./gradlew --no-daemon build
+      - run: find . -name "*.jar"
